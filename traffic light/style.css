@@ -1,0 +1,11 @@
+#circle{
+    text-align: center;
+    padding: 2em;
+    border: 0.5em solid;
+    color: white;
+    width: 4em;
+    height: 4em;
+    font-size: 2em;
+    border-radius: 100%;
+    
+}
