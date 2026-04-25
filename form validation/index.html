@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Form validation</title>
 </head>
+
 <body>
 
-<h1>Form Validator</h1>
+    <h1>Form Validator</h1>
 
-<h4>All fields must be filled out before submiting</h4>
-<form>
-    <label>Your name :</label>
-<br>
-<input type="text" id="name" required >
-
-
-<br>
-<label>Email</label>
-<br>
-<input type="email" id="email" required>
-<br>
-
-    <label>Message</label>
-    <br>
-<input type="text" id="text" >
-
-
-<br>
-<input type="submit" id="submit">
-</form>
-<p id="display" ></p>
+    <h4>All fields must be filled out before submiting</h4>
+    <form id="form">
+        <label>Your name :</label>
+        <br>
+        <input type="text" id="name" required>
+        <br>
+        <label>Email</label>
+        <br>
+        <input type="email" id="email" required>
+        <br>
+        <label>Message</label>
+        <br>
+        <input type="text" id="text">
+        <br>
+        <input type="submit" id="submit">
+    </form>
+    <p id="display"></p>
     <script src="index.js"></script>
 </body>
+
 </html>
